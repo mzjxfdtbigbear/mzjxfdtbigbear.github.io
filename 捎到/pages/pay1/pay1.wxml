@@ -1,0 +1,8 @@
+<!--pages/pay1/pay1.wxml-->
+<navigation-bar title="捎到" back="{{true}}" color="gold" background="#00F"></navigation-bar>  
+<view style="text-align: center;"><text>pages/pay1/pay1.wxml</text></view>
+<canvas style="width: 750rpx; height: 992rpx; display: block; box-sizing: border-box; left: 0rpx; top: 30rpx; position: relative" id="myCanvas-1" type="2d" />
+<button bind:tap="back" style="position: relative; left: 0rpx; top: 30rpx">返回</button>
+
+
+

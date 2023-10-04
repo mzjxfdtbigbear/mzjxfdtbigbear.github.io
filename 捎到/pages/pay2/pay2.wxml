@@ -1,0 +1,41 @@
+<page-meta>  
+  <navigation-bar title="捎到" back="{{true}}" color="gold" background="#0F0"></navigation-bar>  
+  <view style="display: flex;justify-content: center; margin-top: 60rpx; ">  
+    <video   
+      id="myVideo"         
+      src="/images/burning2.mp4"       
+      mode="aspectFit"  
+      controls="{{false}}"
+      autoplay="{{true}}"  
+      bindended="onVideoEnded" 
+      binderror="videoErrorCallback" >        
+    </video>  
+    <video   
+  id="videoB"   
+  src="/images/phoenix.mp4"    
+  mode="aspectFit"   
+  autoplay= "{{false}}"   
+  controls= "{{false}}" 
+  bindended="onVideoBEnded"  
+  binderror="videoErrorCallback"   
+  hidden="{{true}}">  
+</video>
+<audio   
+  id="audioM"   
+  src="/sound/Prajnaparamita.m4a"   
+  autoplay="{{true}}"   
+  bindended="onAudioEnded"   
+  binderror="audioErrorCallback">  
+</audio>
+  </view>  
+  <!--无法加载本地视频，用网上QQ相册，fiddler抓取真实地址，-->
+  <view style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 50vh;">    
+    <text style="color:teal;text-align: center;">\n差役赶来中</text>    
+    <text style="color: goldenrod;text-align: center;">\n山高水长 路途遥远</text>    
+    <text style="color:maroon;text-align: center;">\n第一次来 路不熟</text>    
+    <text style="color:olive;text-align: center;">\n用时较长</text>    
+    <text style="color:purple;text-align: center;">\n第二次就快多了</text>    
+    <text style="color:yellow;text-align: center;">\n等候越久 心意越重</text>    
+  </view>  
+  <button bind:tap="back" style="position: relative; left: 0rpx; top: 30rpx">返回</button>  
+</page-meta>

@@ -1,0 +1,22 @@
+<!--index.wxml-->  
+<navigation-bar title="捎到" back="{{false}}" color="gold" background="#F00"></navigation-bar>  
+
+
+<view class="container" >  
+  <image class="background" src="/images/ad.jpg" mode="aspectFill"></image> 
+  <text style="position:static;">送钱送物送寒衣 事死如生表心意</text>
+  <text style="position:static;">心意烧到用捎到 安全方便更高效</text>
+  <text style="display: block; height: 30px;" >   </text>
+  <view class="option" bindtap="pay1">
+    <image class="option-image" src="/images/bt1.jpg"></image>
+  </view>
+  <view class="option" bindtap="pay2">
+    <image class="option-image" src="/images/bt2.jpg"></image>
+  </view>
+  <view class="option" bindtap="pay3">
+    <image class="option-image" src="/images/bt3.jpg"></image>
+  </view>
+  <view class="option" bindtap="pay4">
+    <image class="option-image" src="/images/bt4.jpg"></image>
+  </view>
+</view>
